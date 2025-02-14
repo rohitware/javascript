@@ -31,4 +31,4 @@ function fullName(firstName, middleName, lastName) {
     var result = firstName + middleName + lastName;
     console.log(result);
 }
-fullName("Gajanan ", "Prabhakar ", "Kharat");
+fullName("Gajanan ", "Prabhakar ", "Kharat");fullName("Pranav ", "Rohit ", "Ware");
