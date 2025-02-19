@@ -10,8 +10,6 @@ function marriageEligibility(gender, age) {
         console.log(`You are ${age} years old ${gender}: "Sorry you are not Eligible for Marriage"`);
     }
 }
-
-
 marriageEligibility("Male", 19);
 marriageEligibility("Male", 25);
 marriageEligibility("Female", 16);
