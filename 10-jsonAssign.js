@@ -14,10 +14,7 @@ const employeeInfoJson = `
 "referred-by": "E0012"
 }`;
 
-
-
 const employeeInfoObj = JSON.parse(employeeInfoJson);
-
 console.log(`Converted JSON to Object`);
 console.log(employeeInfoObj);
 
