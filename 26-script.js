@@ -42,3 +42,29 @@ paraElement.appendChild(textNode);
 
 const footer = document.querySelector("footer");
 footer.appendChild(paraElement);
+
+console.log(`====== Delete the node =========`);
+const liDanceElement = document.querySelector("#dance");
+const hobbiesElement = document.querySelector("#hobbies");
+hobbiesElement.removeChild(liDanceElement);
+
+console.log(`====== EVENTS =========`);
+const hobbiesHeading = document.querySelector("#hobbiesHeading");
+hobbiesHeading.addEventListener("click", () => {
+    console.log("Hey buddy.. Smile!!");
+});
+
+console.log(`====== Models =========`);
+const submitBtn = document.querySelector("#submit");
+submitBtn.addEventListener("click", () => {
+    const numValue = prompt("Enter Number", 1);
+    confirm("Are you sure you want the square ?");
+    alert(numValue * numValue);
+});
+
+const addition = document.querySelector("#addition");
+addition.addEventListener('click', () => {
+    const numOne = +document.querySelector("#inputFiledOne").value;
+    const numTwo = +document.querySelector("#inputFiledTwo").value;
+    alert(numOne + numTwo);
+});
