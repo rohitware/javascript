@@ -1,6 +1,6 @@
 function outer() {
 
-    let name = "Roht";
+    let name = "Rohit";
 
     function inner() {
         console.log("hello " + name);
